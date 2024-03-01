@@ -1,0 +1,92 @@
+.train {
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.top {
+    background-color: blue;
+    height: 10%;
+    width: 100%;
+}
+
+.hoek {
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid gray;
+    rotate: 45deg;
+    position: relative; top: -25px; right: 19px;
+}
+
+.hoek-top {
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid gray;
+    rotate: 135deg;
+    position: relative; top: -74.41px; right: 19px;
+}
+
+.front {
+    background-color: yellow;
+    height: 60%;
+    width: 10%;
+}
+
+.bluepart {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.window {
+    background-color: lightskyblue;
+    height: 50%;
+    width: 60%;
+    border-radius: 15px;
+}
+
+.rails {
+    background-color: yellow;
+    height: 5000px;
+    width: 100%;
+}
+
+.ovfice {
+    height: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ov-text {
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.ov-space {
+    height: 100%;
+    width: 45%;
+}
+
+.ov-space-two {
+    height: 100%;
+    width: 30%;
+}
+
+.login {
+    background-color: blue;
+    margin-top: 70px;
+    height: 40%;
+    width: 6%;
+    border-radius: 5px;
+}
